@@ -42,9 +42,9 @@ services:
       - grafana
 
   app:
-    build: ./app
+    image: local/grafana-101_app
     ports:
-      - 8081:80
+      - 8085:80
     volumes:
       - app_data:/var/log
     networks:
