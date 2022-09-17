@@ -31,3 +31,10 @@ To start the sample application and the supporting services:
 ```shell
 docker-compose up -d
 ```
+
+## Cleaning Up
+
+```shell
+docker-compose down -v
+```
+**Note:** only use -v if you also want to get rid of all the associated volumes created.
