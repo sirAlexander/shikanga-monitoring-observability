@@ -28,6 +28,6 @@ cd ..
 
 To start the sample application and the supporting services:
 
-```
+```shell
 docker-compose up -d
 ```
